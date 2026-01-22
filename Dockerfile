@@ -1,6 +1,5 @@
 #use node image as our base image
 FROM node
-
 RUN mkdir /usr/src/app
 #Goes to the app directory (think of it like a cd terminal command)
 WORKDIR /usr/src/app
